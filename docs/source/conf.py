@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'deepCTR'
-copyright = u'2018, Seaty'
+copyright = u'2018, AnyAI'
 author = u'Seaty'
 
 # The short X.Y version
