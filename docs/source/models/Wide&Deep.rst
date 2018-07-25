@@ -1,7 +1,7 @@
-DeepFM
+Wide & Deep
 ===================================
 
-.. image:: DeepFM_1.png
+.. image:: Wide&Deep.png
 
 
 

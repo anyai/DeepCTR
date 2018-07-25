@@ -1,7 +1,7 @@
-DeepFM
+NFM (Neural FM)
 ===================================
 
-.. image:: DeepFM_1.png
+.. image:: NFM.png
 
 
 

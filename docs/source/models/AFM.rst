@@ -1,7 +1,7 @@
-DeepFM
+AFM (Attentional FM)
 ===================================
 
-.. image:: DeepFM_1.png
+.. image:: AFM.png
 
 
 
