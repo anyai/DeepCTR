@@ -8,6 +8,7 @@ The deepCTR has the following requirements by default. We recommend users to use
 - numpy 
 - scikit-learn 
 - pandas
+- yaml
 - tensorflow-gpu/tensorflow 1.4.0
 - Keras 2.1.0
 

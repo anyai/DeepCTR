@@ -1,7 +1,7 @@
 DeepFM
 ===================================
 
-.. image:: DeepFM.png
+.. image:: DeepFM1.png
 
 
 

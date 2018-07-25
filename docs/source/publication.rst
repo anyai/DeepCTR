@@ -9,7 +9,7 @@ Publications
 
 #. [**ADKDD'2017**]Wang, Ruoxi, et al. `Deep & cross network for ad click predictions <https://dl.acm.org/citation.cfm?id=3124754>`_ *Proceedings of the ADKDD'17*. ACM, 2017.
 
-#. [**IJCAI'2017**]Xiao, Jun, et al. `Attentional factorization machines: Learning the weight of feature interactions via attention networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_ arXiv preprint arXiv:1708.04617 (2017).
+#. [**IJCAI'2017**]Xiao, Jun, et al. `Attentional factorization machines: Learning the weight of feature interactions via attention networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_ Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence. IJCAI, 2017.
    
 #. [**ACM'2017**]He, Xiangnan, and Tat-Seng Chua. `Neural factorization machines for sparse predictive analytics <https://dl.acm.org/citation.cfm?id=3080777>`_ Proceedings of the 40th International ACM SIGIR conference on Research and Development in Information Retrieval. ACM, 2017.
 
