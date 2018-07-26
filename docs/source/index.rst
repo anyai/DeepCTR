@@ -6,7 +6,7 @@
 Welcome to deepCTR's documentation!
 ===================================
 
-DeepCTR is a project that implements popular network designed for CTR (Click Through Rate) prediction task. What's more, we do great experiments on open data and provide as benchmark.
+DeepCTR is a project that introduces classic CTR (Click Through Rate) prediction model and implements popular network designed for CTR prediction task. What's more, we do a great number of experiments on open data and provide as benchmark.
 
 .. toctree::
    :maxdepth: 1
