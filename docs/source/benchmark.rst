@@ -143,4 +143,4 @@ For iPinYou dataset, we use 3 dense layers and each layer with 256 units in Deep
     min(#category cardinality, K)
 :F:
     6*(#category cardinality)^(1/4)
-    
+

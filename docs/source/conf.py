@@ -40,7 +40,7 @@ release = u'1.0.1'
 # ones.
 extensions = ['sphinx_extensions.imgmath'
 ]
-imgmath_latex = './'
+imgmath_latex = 'C:\\texlive\\2018\\bin\\win32\\latex'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['.templates']
