@@ -26,6 +26,7 @@ DeepCTR is a project that implements popular network designed for CTR (Click Thr
 
    models/Overview
    models/FM
+   models/FFM
    models/GBDT+LR
    models/FNN
    models/PNN

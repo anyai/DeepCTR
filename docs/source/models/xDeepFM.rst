@@ -1,4 +1,4 @@
-DeepFM
+xDeepFM (eXtreme DeepFM)
 ===================================
 
 .. image:: DeepFM_1.png

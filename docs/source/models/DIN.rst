@@ -1,4 +1,4 @@
-DeepFM
+DIN (Deep Interest Network)
 ===================================
 
 .. image:: DeepFM_1.png

@@ -1,5 +1,5 @@
-FM (Factorization Machines)
-===================================
+GBDT+LR
+===========
 
 .. image:: FM.png
 

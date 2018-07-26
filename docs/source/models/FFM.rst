@@ -1,5 +1,5 @@
-FM (Factorization Machines)
-===================================
+FFM (Field-aware Factorization Machines)
+==========================================
 
 .. image:: FM.png
 
