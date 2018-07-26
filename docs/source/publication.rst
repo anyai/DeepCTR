@@ -16,12 +16,12 @@ Publications
 #. [**ACM'2016**]Cheng, Heng-Tze, et al. `Wide & deep learning for recommender systems <https://dl.acm.org/citation.cfm?id=2988454>`_, Proceedings of the 1st Workshop on Deep Learning for Recommender Systems. ACM, 2016.
 
 #. [**IEEE'2016**]Qu, Yanru, et al. `Product-based neural networks for user response prediction <https://ieeexplore.ieee.org/abstract/document/7837964/>`_, Data Mining (ICDM), 2016 IEEE 16th International Conference on. IEEE, 2016.
+   
+#. [**Springer'2016**]Zhang, Weinan, Tianming Du, and Jun Wang. `Deep learning over multi-field categorical data <https://link.springer.com/chapter/10.1007/978-3-319-30671-1_4>`_, European conference on information retrieval. Springer, Cham, 2016.
 
 #. [**ACM'2016**]Chen, Junxuan, et al. `Deep ctr prediction in display advertising <https://dl.acm.org/citation.cfm?id=2964325>`_, Proceedings of the 2016 ACM on Multimedia Conference. ACM, 2016.   
    
 #. [**ACM'2016**]Juan, Yuchin, et al. `Field-aware factorization machines for CTR prediction <https://dl.acm.org/citation.cfm?id=2959134>`_, Proceedings of the 10th ACM Conference on Recommender Systems. ACM, 2016.   
-   
-#. [**Springer'2015**]Zhang, Weinan, Tianming Du, and Jun Wang. `Deep learning over multi-field categorical data <https://link.springer.com/chapter/10.1007/978-3-319-30671-1_4>`_, European conference on information retrieval. Springer, Cham, 2016.
 
 #. [**ACM'2015**]Liu, Qiang, et al. `A convolutional click prediction model <https://dl.acm.org/citation.cfm?id=2806603>`_, Proceedings of the 24th ACM International on Conference on Information and Knowledge Management. ACM, 2015.
    
