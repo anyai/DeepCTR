@@ -1,17 +1,16 @@
 Benchmarks
 ==========
 
-All the network model have been evaluated on a couple of datasets (e.g. `Frappe <http://baltrunas.info/research-menu/frappe>`_, `iPinYou <http://data.computational-advertising.org/>`_, `Criteo <http://labs.criteo.com/2014/02/kaggle-display-advertising-challenge-dataset/>`_). We report logloss and AUC for evaluating model performance. Note that two of the best evaluation scores are marked with \*. 
+All the network model have been evaluated on a couple of datasets (e.g. `Frappe <http://baltrunas.info/research-menu/frappe>`_, `iPinYou <http://data.computational-advertising.org/>`_, `Criteo <http://labs.criteo.com/2014/02/kaggle-display-advertising-challenge-dataset/>`_). We report logloss and AUC for evaluating model performance. Note that two of the best evaluation scores are marked with \* and **\`Setting\`** indicates (#Pool Size of LinkageEmbedding, #Embedding Dimention, Use BatchNormalization in LinkageEmbedding or not). 
 
 Criteo
 ----------
 
 For Criteo dataset, we use 3 dense layers and each layer with 256 units in DeepFM; 6 cross layers and 2 dense layers with 1024 units in DCN.
 
-|
 
 +------------------+-------------+-------------+----------------+------------+------------+
-|                                         **Criteo**                                      |
+|                                                                                         |
 +==================+=============+=============+================+============+============+
 |**Embedding Type**| **Model**   |  **Setting**| **#Param(1e6)**| **Logloss**| **AUC**    |
 +------------------+-------------+-------------+----------------+------------+------------+
@@ -67,10 +66,9 @@ iPinYou
 
 For iPinYou dataset, we use 3 dense layers and each layer with 256 units in DeepFM; 4 cross layers and 2 dense layers with 256 units in DCN.
 
-|
 
 +------------------+-------------+-------------+----------------+------------+------------+
-|                                        **iPinYou**                                      |
+|                                                                                         |
 +==================+=============+=============+================+============+============+
 |**Embedding Type**| **Model**   |  **Setting**|   **#Param**   | **Logloss**| **AUC**    |
 +------------------+-------------+-------------+----------------+------------+------------+
@@ -104,10 +102,9 @@ Frappe
 
 For iPinYou dataset, we use 3 dense layers and each layer with 256 units in DeepFM; 4 cross layers and 2 dense layers with 256 units in DCN.
 
-|
 
 +------------------+-------------+-------------+----------------+------------+------------+
-|                                          **Frappe**                                     |
+|                                                                                         |
 +==================+=============+=============+================+============+============+
 |**Embedding Type**| **Model**   |  **Setting**|   **#Param**   | **Logloss**| **AUC**    |
 +------------------+-------------+-------------+----------------+------------+------------+
@@ -142,4 +139,8 @@ For iPinYou dataset, we use 3 dense layers and each layer with 256 units in Deep
 |                  | DCN         |minF,F,BN    |    342,041     |   0.2520   |   95.80%   |
 +------------------+-------------+-------------+----------------+------------+------------+
 
-Note that :math:`minK=min(K, #category cardinality)` and :math:`F=6*(#category cardinality)^(1\4)`
+:minK:
+    min(#category cardinality, K)
+:F:
+    6*(#category cardinality)^(1/4)
+    

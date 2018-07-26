@@ -3,7 +3,7 @@ DIN (Deep Interest Network)
 
 .. image:: DIN_AttentionNet.png
    :align: center
-   :scale: 46 %
+   :scale: 40 %
 
 .. image:: DIN_Arch.png
 
