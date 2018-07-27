@@ -2,6 +2,9 @@ FM (Factorization Machines)
 ===================================
 
 **Model Equation**
+
+::
+
   y(x):= bias + Σ_i(w_i * x_i) + Σ_iΣ_j<v_i, v_j> * x_i * x_j
 
 FM is based on the idea of embedding which means that it treats each category 

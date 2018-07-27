@@ -14,7 +14,9 @@ field accordingly. Compared to FM, FFM has some advantages:
   As introduced in FM, the latent vector of x_k is shared in all iteraction 
   terms like (x_k, x_j). Therefore, the latent vector v_k needs to cooperate 
   with all of other vectors, which constrain v_k from better adapting to any
-  v_j. With such idea, FFM clusters all feature into several fields and shares
+  v_j. 
+  
+  With such idea, FFM clusters all feature into several fields and shares
   latent vector within each field respectively. All in all, it is a trade-off
   between capacity and reliability.
   
