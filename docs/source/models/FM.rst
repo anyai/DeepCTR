@@ -23,7 +23,7 @@ product of latent vectors. Thus FM has some advantages:
   
     2 * Σ_iΣ_j(x_i * x_j)=(Σ_ix_i)^2 - Σ_i(x_i)^2
   
-It can be implemented as neural network showing below.
+It can be implemented as neural network shown below.
 
 .. image:: FM.png
 

@@ -15,9 +15,10 @@ field accordingly. Compared to FM, FFM has some advantages:
   terms like (x_k, x_j). Therefore, the latent vector v_k needs to cooperate 
   with all of other vectors, which constrain v_k from better adapting to any
   v_j. With such idea, FFM clusters all feature into several fields and shares
-  latent vector within each field respectively.
+  latent vector within each field respectively. All in all, it is a trade-off
+  between capacity and reliability.
   
-It can be implemented as neural network showing below.
+It can be implemented as neural network shown below.
 
 .. image:: FFM.png
 
