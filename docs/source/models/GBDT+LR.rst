@@ -21,7 +21,7 @@ The hybrid model structure — concatenation of GBDT and LR is shown below.
 
 .. image:: GBDT+LR.png
    :align: center
-   :scale: 55 %
+   :scale: 50 %
    
 
 [**ACM'2014**]He, Xinran, et al. `Practical lessons from predicting clicks on ads at facebook <https://dl.acm.org/citation.cfm?id=2648589>`_, Proceedings of the Eighth International Workshop on Data Mining for Online Advertising. ACM, 2014.

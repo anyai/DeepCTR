@@ -23,6 +23,8 @@ field accordingly. Compared to FM, FFM has some advantages:
 It can be implemented as neural network shown below.
 
 .. image:: FFM.png
+   :align: center
+   :scale: 40 %
 
 You can get the editable figure `here <https://www.processon.com/view/link/5b59addae4b08d3622916c48>`_.
 

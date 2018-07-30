@@ -29,6 +29,8 @@ product of latent vectors. Thus FM has some advantages:
 It can be implemented as neural network shown below.
 
 .. image:: FM.png
+   :align: center
+   :scale: 40 %
 
 You can get the editable figure `here <https://www.processon.com/view/link/5b5935e8e4b0be50eac1281c>`_.
 
