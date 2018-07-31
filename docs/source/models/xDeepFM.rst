@@ -16,6 +16,8 @@ interaction vectors compose the feature map. All the feature maps are finally
 pooling along dimention D into input vectors of output layer, which is shown in
 part c.
 
+:math:`x_1`
+
 .. image:: xDeepFM_CIN.png
 
 In addition, integration of Wide & Deep (i.e. LR and DNN) and CIN comes into 
