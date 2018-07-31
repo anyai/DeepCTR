@@ -16,14 +16,18 @@ interaction vectors compose the feature map. All the feature maps are finally
 pooling along dimention D into input vectors of output layer, which is shown in
 part c.
 
+
 .. image:: xDeepFM_CIN.png
+
 
 In addition, integration of Wide & Deep (i.e. LR and DNN) and CIN comes into 
 the final xDeepFM shown below.
 
+
 .. image:: xDeepFM_Arch.png
    :align: center
    :scale: 45 %
+
 
 [**arXiv'2018**]Lian, Jianxun, et al. `xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems <https://arxiv.org/abs/1803.05170>`_, arXiv preprint arXiv:1803.05170 (2018).
 
