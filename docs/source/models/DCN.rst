@@ -7,9 +7,9 @@ input. Simultaneously, DCN applys Cross Net to explicitly model both low-order
 feature interactions and high-order feature interactions. The cross operation
 performs with formula:
 
-  :math:`x_(l+1) = x_0 * (x_l)^T * w_l + b_l + x_l`
+  :math:`x_{l+1} = x_0 * x_l^T * w_l + b_l + x_l`
   
-Additionally, the term :math:`x_0 * (x_l)^T` in Cross Net explicitly generates 
+Additionally, the term :math:`x_0 * x_l^T` in Cross Net explicitly generates 
 interactions but different from the term :math:`Σ_iΣ_j<v_i, v_j> * x_i * x_j` in
 FM. Specifically, the term :math:`x_0 * (x_l)^T` generates element-level 
 interaction while the term :math:`Σ_iΣ_j<v_i, v_j> * x_i * x_j` is vector-level

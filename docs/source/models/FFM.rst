@@ -2,7 +2,7 @@ FFM (Field-aware Factorization Machines)
 ==========================================
 
 **Model Equation**
-  :math:`y(x):= bias + Σ_i(w_i * x_i) + Σ_iΣ_j<V_i[n], V_j[m]> * x_i^(m) * x_j^(n)`
+  :math:`y(x):= bias + Σ_i(w_i * x_i) + Σ_iΣ_j<V_i[n], V_j[m]> * x_i^{(m)} * x_j^{(n)}`
 
 FFM is based on the FM. FFM embeddings each category feature into multiple 
 latent vectors (i.e. a latent vector matrix :math:`V_i`) and models those iteraction 
