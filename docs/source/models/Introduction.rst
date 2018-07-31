@@ -39,6 +39,7 @@ Obviously, these methods has serious limits:
 
 - it is unable to estimate reliable interaction weights
 
-  As the weight w_ij for interaction pair (x_i, x_j) is updated only when x_i
-  and x_j is nonzero. There is no doubt that (x_i, x_j) is more sparse 
-  because both x_i and x_j have high sparsity.
+  As the weight w_ij for interaction pair (:math:`x_i`, :math:`x_j`) is updated
+  only when :math:`x_i` and :math:`x_j` is nonzero. There is no doubt that 
+  (:math:`x_i`, :math:`x_j`) is more sparse because both :math:`x_i` and 
+  :math:`x_j` have high sparsity.
