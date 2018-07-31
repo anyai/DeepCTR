@@ -10,10 +10,9 @@ The Attention Net is a simple Multi-Layer Perception (MLP) with an element-wise
 product of two latent vectors as input and an attention score as output. There
 is its formula:
 
-.. math::
-
-  `A_ij^' = h^T * ReLU(W * Prod_(element-wise)(v_i, v_j) * x_i * x_j + b)>`
-  `{A_ij} = softmax({tmpA_ij})`
+  :math:`A_ij^' = h^T * ReLU(W * Prod_(element-wise)(v_i, v_j) * x_i * x_j + b)>`
+  
+  :math:`{A_ij} = softmax({tmpA_ij})`
 
 Its network structure is shown below.
 

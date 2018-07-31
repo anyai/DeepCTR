@@ -10,6 +10,7 @@ The difference between PNN's inner product layer and NFM is the addition axis
 when pooling matrix :math:`V` into DNN's input vector, each of whose column is 
 an element-wise product of two latent vectors.
 
+
 Its network structure is shown below.
 
 .. image:: NFM.png
