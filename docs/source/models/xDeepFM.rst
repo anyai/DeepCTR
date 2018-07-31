@@ -11,10 +11,10 @@ vector and performs outer product between two matrixs, which is shown in part
 a of figure below.
 
 Shown in part b of figure below, then using a dense layer **shared** in 
-dimention D to generate one of H_k interaction vectors and those H_k 
-interaction vectors compose the feature map. All the feature maps are finally 
-pooling along dimention D into input vectors of output layer, which is shown in
-part c.
+dimention :math:`D` to generate one of :math:`H_k` interaction vectors and 
+those :math:`H_k` interaction vectors compose the feature map. All the feature 
+maps are finally pooling along dimention :math:`D` into input vectors of output
+layer, which is shown in part c.
 
 .. image:: xDeepFM_CIN.png
 

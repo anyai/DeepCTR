@@ -7,8 +7,8 @@ input to explicitly modeling low-order feature interactions and implicitly
 modeling high-order feature interactions.
 
 The difference between PNN's inner product layer and NFM is the addition axis
-when pooling matrix V into DNN's input vector, each of whose column is a 
-element-wise product of two latent vectors.
+when pooling matrix :math:`V` into DNN's input vector, each of whose column is 
+an element-wise product of two latent vectors.
 
 Its network structure is shown below.
 
