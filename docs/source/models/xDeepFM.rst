@@ -17,6 +17,9 @@ pooling along dimention D into input vectors of output layer, which is shown in
 part c.
 
 
+:math:`x_i`
+
+
 .. image:: xDeepFM_CIN.png
 
 
