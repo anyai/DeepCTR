@@ -12,7 +12,7 @@ is its formula:
 
   :math:`tmpA_{ij} = h^T * ReLU(W * Prod_{element-wise}(v_i, v_j) * x_i * x_j + b)`
   
-  :math:`\{A_{ij}\} = softmax(\{tmpA_{ij\}})`
+  :math:`\{A_{ij}\} = softmax(\{tmpA_{ij}\})`
 
 Its network structure is shown below.
 
