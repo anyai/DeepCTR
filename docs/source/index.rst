@@ -25,19 +25,8 @@ DeepCTR is a project that introduces classic CTR (Click Through Rate) prediction
    :caption: Models
 
    models/Introduction
-   models/FM
-   models/FFM
-   models/GBDT+LR
-   models/Overview
-   models/FNN
-   models/PNN
-   models/Wide&Deep
-   models/DeepFM
-   models/NFM
-   models/AFM
-   models/DCN
-   models/DIN
-   models/xDeepFM
+   models/TraditionalModels
+   models/DeepModels
    publication
 
 .. toctree::
