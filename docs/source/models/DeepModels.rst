@@ -12,7 +12,7 @@ of which focus on:
   - maintaining the ability of modeling low-order feature interactions implicitly or explicitly
   
 It is general to apply Deep Neural Network (DNN) whose input should be designed
-to capature the high-order feature interactions implicitly. 
+to capature the high-order feature interactions implicitly and selectively. 
 
 
 
