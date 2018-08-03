@@ -139,8 +139,8 @@ For iPinYou dataset, we use 3 dense layers and each layer with 256 units in Deep
 |                  | DCN         |minF,F,BN    |    342,041     |   0.2520   |   95.80%   |
 +------------------+-------------+-------------+----------------+------------+------------+
 
-**minK:** :math:`min(#category cardinality, K)`
-**F:** :math:`6*(#category cardinality)^(1/4)`
-
-:math:`6*(#category cardinality)^{(1/4)}`
+:minK:
+  min(#category cardinality, K)
+:F:
+  6*(#category cardinality)^(1/4)
 
