@@ -25,6 +25,8 @@ Publications
 
 #. [**ACM'2015**]Liu, Qiang, et al. `A convolutional click prediction model <https://dl.acm.org/citation.cfm?id=2806603>`_, *Proceedings of the 24th ACM International on Conference on Information and Knowledge Management*. ACM, 2015.
    
+#. [**AAAI'2014**]Zhang, Yuyu, et al. `Sequential Click Prediction for Sponsored Search with Recurrent Neural Networks. <http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/download/8529/8581>`_ AAAI. Vol. 14. 2014.
+   
 #. [**ACM'2014**]He, Xinran, et al. `Practical lessons from predicting clicks on ads at facebook <https://dl.acm.org/citation.cfm?id=2648589>`_, *Proceedings of the Eighth International Workshop on Data Mining for Online Advertising*. ACM, 2014.
 
 #. [**ACM'2013**]McMahan, H. Brendan, et al. `Ad click prediction: a view from the trenches <https://dl.acm.org/citation.cfm?id=2488200>`_, *Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining*. , 2013.
