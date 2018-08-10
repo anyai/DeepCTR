@@ -1,8 +1,14 @@
 Deep Models
-===================================
+===========
+
+.. contents::
+   :local:
+   :depth: 1
+
+
 
 Overview
--------------
+--------
 
 Under the success of FM, there are many neural network models based on it, most
 of which focus on:
@@ -17,7 +23,7 @@ to capature the high-order feature interactions implicitly and selectively.
 
 
 FNN (Factorization-supported Neural Network)
----------------------------------------------------
+--------------------------------------------
 
 FNN embedding sparse feature into dense latent vector and apply DNN with 
 concatenation of latent vectors as input to implicitly and simultaneously 
@@ -35,7 +41,7 @@ You can get the editable figure `here <https://www.processon.com/view/link/5b582
 
 
 PNN (Product-based Neural Network)
---------------------------------------
+----------------------------------
 
 PNN embedding sparse feature into dense latent vector and apply DNN with 
 concatenation of latent vectors and inner or outer product of latent vector as 
@@ -55,7 +61,7 @@ You can get the editable figure `here <https://www.processon.com/view/link/5b582
 
 
 Wide & Deep
---------------
+-----------
 
 The deep part of Wide & Deep is the same as FNN which embedding sparse feature 
 into dense latent vector and apply DNN with concatenation of latent vectors as 
@@ -75,7 +81,7 @@ You can get the editable figure `here <https://www.processon.com/view/link/5b583
 
 
 DeepFM
--------------
+------
 
 The deep part of DeepFM is the same as FNN which embedding sparse feature 
 into dense latent vector and apply DNN with concatenation of latent vectors as 
@@ -96,7 +102,7 @@ You can get the editable figure `here <https://www.processon.com/view/link/59c8d
 
 
 NFM (Neural FM)
------------------------
+---------------
 
 NFM embedding sparse feature into dense latent vector and apply DNN with 
 element-wise addition of all element-wise product of each two latent vectors as 
@@ -121,7 +127,7 @@ You can get the editable figure `here <https://www.processon.com/view/link/5b57f
 
 
 AFM (Attentional FM)
-------------------------
+--------------------
 
 NFM embedding sparse feature into dense latent vector and apply DNN with 
 element-wise addition of all element-wise product of each two latent vectors 
@@ -149,7 +155,7 @@ You can get the editable figure `here <https://www.processon.com/view/link/5b581
 
 
 DCN (Deep & Cross Network)
----------------------------------
+--------------------------
 
 The deep part of DCN is the same as FNN which embedding sparse feature 
 into dense latent vector and apply DNN with concatenation of latent vectors as 
@@ -176,7 +182,7 @@ Its network structure is shown below.
 
 
 DIN (Deep Interest Network)
-----------------------------
+---------------------------
 
 DIN is just a simple DNN taking concatenation of latent vectors as input to 
 implicitly and simultaneously modeling low-order and high-order feature 
@@ -207,7 +213,7 @@ element-wise product as input.
 
 
 xDeepFM (eXtreme DeepFM)
-----------------------------------
+------------------------
 
 As mentioned in DCN, it can expcilitly model both low-order and high-order
 element-level feature interactions. Inspired by this, xDeepFM is trying to 
