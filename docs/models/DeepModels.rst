@@ -129,28 +129,28 @@ You can get the editable figure `here <https://www.processon.com/view/link/5b57f
 AFM (Attentional FM)
 --------------------
 
-NFM embedding sparse feature into dense latent vector and apply DNN with 
-element-wise addition of all element-wise product of each two latent vectors 
-with weight computed by Attention Net as input to explicitly modeling low-order 
-feature interactions and implicitly modeling high-order feature interactions.
-
-The Attention Net is a simple Multi-Layer Perception (MLP) with an element-wise 
-product of two latent vectors as input and an attention score as output. There
-is its formula:
-
-  :math:`tmpA_{ij} = h^T * ReLU(W * Prod_{element-wise}(v_i, v_j) * x_i * x_j + b)`
-  
-  :math:`\{A_{ij}\} = softmax(\{tmpA_{ij}\})`
-
-Its network structure is shown below.
+FM models all factorized feature interactions with the same weight. AFM proposes to differentiate the importance of feature interactions by assigning different weights to feature interaction terms. To do so, AFM first extends FM to the neural netowrk architecture and then introduces the attention mechanism to the sum pooling layer.
 
 .. image:: AFM.png
    :align: center
    :scale: 40 %
-   
-You can get the editable figure `here <https://www.processon.com/view/link/5b581b40e4b067df59ea0ac3>`_.
 
-[**IJCAI'2017**]Xiao, Jun, et al. `Attentional factorization machines: Learning the weight of feature interactions via attention networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_, Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence. IJCAI, 2017.
+The Attention Net is a simple Multi-Layer Perception (MLP) network with an element-wise 
+product of two embedding vectors as input and an attention score as output.
+
+Attention formula:
+
+  :math:`a_{ij}' = \mathbf{h}^T * ReLU(\mathbf{W}(\mathbf{v}_i \odot \mathbf{v}_j)x_ix_j + \mathbf{b}) `
+  
+  :math:`a_{ij} = softmax(a_{ij}')`
+
+Prediction function:
+
+  :math:`y_{AFM} = w_0 + \sum_{i=1}^{n} w_ix_i + \mathbf{p}^T \sum_{i=1}^{n}\sum_{j=i+1}^{n}a_{ij} (\mathbf{v}_i \odot \mathbf{v}_j)x_ix_j `
+
+:math:`y_{AFM}` can exactly recover FM when setting :math:`\mathbf{p}` to :math:`\mathbf{1}` and :math:`a_{ij}` to 1. 
+
+* [**IJCAI'2017**] Jun Xiao, Hao Ye, Xiangnan He, Hanwang Zhang, Fei Wu, Tat-Seng Chua. `Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_, *Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence (IJCAI)*, 2017.
 
 
 
