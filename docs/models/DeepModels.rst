@@ -142,9 +142,8 @@ Attention formula:
 
 .. math::
 
-   a_{ij}' = \mathbf{h}^T * ReLU(\mathbf{W}(\mathbf{v}_i \odot \mathbf{v}_j)x_ix_j + \mathbf{b})
-  
-   a_{ij} = softmax(a_{ij}')
+   a_{ij}' &= \mathbf{h}^T * ReLU(\mathbf{W}(\mathbf{v}_i \odot \mathbf{v}_j)x_ix_j + \mathbf{b}) \\
+   a_{ij} &= softmax(a_{ij}')
 
 Prediction function:
 
