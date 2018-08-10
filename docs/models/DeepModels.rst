@@ -140,17 +140,21 @@ product of two embedding vectors as input and an attention score as output.
 
 Attention formula:
 
-  :math:`a_{ij}' = \mathbf{h}^T * ReLU(\mathbf{W}(\mathbf{v}_i \odot \mathbf{v}_j)x_ix_j + \mathbf{b}) `
+.. math::
+
+   a_{ij}' = \mathbf{h}^T * ReLU(\mathbf{W}(\mathbf{v}_i \odot \mathbf{v}_j)x_ix_j + \mathbf{b})
   
-  :math:`a_{ij} = softmax(a_{ij}')`
+   a_{ij} = softmax(a_{ij}')
 
 Prediction function:
 
-  :math:`y_{AFM} = w_0 + \sum_{i=1}^{n} w_ix_i + \mathbf{p}^T \sum_{i=1}^{n}\sum_{j=i+1}^{n}a_{ij} (\mathbf{v}_i \odot \mathbf{v}_j)x_ix_j `
+.. math::
+
+   y_{AFM} = w_0 + \sum_{i=1}^{n} w_ix_i + \mathbf{p}^T \sum_{i=1}^{n}\sum_{j=i+1}^{n}a_{ij} (\mathbf{v}_i \odot \mathbf{v}_j)x_ix_j
 
 :math:`y_{AFM}` can exactly recover FM when setting :math:`\mathbf{p}` to :math:`\mathbf{1}` and :math:`a_{ij}` to 1. 
 
-* [**IJCAI'2017**] Jun Xiao, Hao Ye, Xiangnan He, Hanwang Zhang, Fei Wu, Tat-Seng Chua. `Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_, *Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence (IJCAI)*, 2017.
+* Jun Xiao, Hao Ye, Xiangnan He, Hanwang Zhang, Fei Wu, Tat-Seng Chua. `Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_, ***IJCAI***, 2017.
 
 
 DCN (Deep & Cross Network)
