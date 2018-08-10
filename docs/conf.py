@@ -39,9 +39,7 @@ release = u'1.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.todo', 
-              'sphinx.ext.imgmath']
-
-imgmath_latex = 'C:\\texlive\\2018\\bin\\win32\\latex'
+              'sphinx.ext.mathjax']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['.templates']

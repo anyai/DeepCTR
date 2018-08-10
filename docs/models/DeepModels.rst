@@ -156,6 +156,7 @@ Prediction function:
 
 * Jun Xiao, Hao Ye, Xiangnan He, Hanwang Zhang, Fei Wu, Tat-Seng Chua. `Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_, ***IJCAI***, 2017.
 
+|
 
 DCN (Deep & Cross Network)
 --------------------------
