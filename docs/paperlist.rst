@@ -1,5 +1,5 @@
-Publications
-============
+Paper List
+==========
 
 1. [**CoRR'2018**] Jianxun Lian, Xiaohuan Zhou, Fuzheng Zhang, Zhongxia Chen, Xing Xie, Guangzhong Sun. `xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems <https://arxiv.org/abs/1803.05170>`_, *arXiv:1803.05170*, 2018.
 

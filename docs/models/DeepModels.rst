@@ -153,7 +153,7 @@ Prediction function:
 
 :math:`y_{AFM}` can exactly recover FM when setting :math:`\mathbf{p}` to :math:`\mathbf{1}` and :math:`a_{ij}` to 1. 
 
-* Jun Xiao, Hao Ye, Xiangnan He, Hanwang Zhang, Fei Wu, Tat-Seng Chua. `Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_, ***IJCAI***, 2017.
+* Jun Xiao, Hao Ye, Xiangnan He, Hanwang Zhang, Fei Wu, Tat-Seng Chua. `Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_, **IJCAI**, 2017.
 
 |
 

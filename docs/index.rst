@@ -16,13 +16,13 @@ DeepCTR is a project that introduces classic CTR (Click Through Rate) prediction
    installation/dependency
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Models
 
    models/Introduction
    models/TraditionalModels
    models/DeepModels
-   publication
+   paperlist
 
 .. toctree::
    :maxdepth: 1
