@@ -13,7 +13,7 @@ CTR prediction models have been evaluated on the following datasets:
 Criteo
 ------
 
-For Criteo dataset, we use 3 fully-connected layers and each layer with 256 units in DeepFM; 6 cross layers and 2 fully-connected layers with 1024 units in DCN. 
+For Criteo dataset, we use 3 fully-connected layers and each layer with 256 units in DeepFM; 6 cross layers and 2 fully-connected layers with 1024 units in DCN. As the data is organized chronologically, we randomly split the last 6,040,618 lines into validation and test set of equal size while the rest is taken as training data.
 
 
 +------------------+-------------+-------------+----------------+------------+------------+
@@ -77,7 +77,7 @@ For Criteo dataset, we use 3 fully-connected layers and each layer with 256 unit
 iPinYou
 -------
 
-For iPinYou dataset, we use the 3 layers DNN each with 256 units. In addition, the depth of cross layer in DCN is set to 4.
+For iPinYou dataset, we use the 3 layers DNN each with 256 units. In addition, the depth of cross layer in DCN is set to 4. We only use the impression and click logs of season 2, the first 6 days of which are taken as training data while the day 7 data is equally split into validation and test set.
 
 
 +------------------+-------------+-------------+----------------+------------+------------+
@@ -128,7 +128,7 @@ Frappe
 The `Frappe dataset <http://baltrunas.info/research-menu/frappe>`_ is a small dataset for quick experimentation and testing of different models. It has been used for context-aware app recommendation, which contains 96,203 app usage logs of users under different contexts. The eight context variables are all categorical, including weather, city, daytime and so on. After one-hot encoding of the features, we obtain 5,382 features. 
 
 
-For Frappe dataset, we use the 3 layers DNN each with 256 units. In addition, the depth of cross layer in DCN is set to 1.
+For Frappe dataset, we use the 3 layers DNN each with 256 units. In addition, the depth of cross layer in DCN is set to 1. As all logs should be considered as positive sample when making CTR prediction, we construct two negative instances for each log through randomly replacing the item variable with other item. The data is randomly split into training data (70%), validation data (20%), test data (10%) before constructing negative instances. Note that we take 8 categorical variable as input feature. 
 
 
 +------------------+-------------+-------------+----------------+------------+------------+
