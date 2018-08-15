@@ -3,9 +3,6 @@ Benchmarks
 
 All the network model have been evaluated on a couple of datasets (e.g. `Frappe <http://baltrunas.info/research-menu/frappe>`_, `iPinYou <http://data.computational-advertising.org/>`_, `Criteo <http://labs.criteo.com/2014/02/kaggle-display-advertising-challenge-dataset/>`_). We report logloss and AUC for evaluating model performance. Note that three of the best evaluation scores are marked with \* and **\`Setting\`** indicates (#Pool Size of LinkageEmbedding, #Embedding Dimention, Use BatchNormalization in LinkageEmbedding or not). 
 
-
-CTR prediction models have been evaluated on the following datasets:
-
 .. contents::
    :local:
    :depth: 1
