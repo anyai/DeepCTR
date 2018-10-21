@@ -22,28 +22,28 @@ Paper List
 2017
 ----
 
-#. [**IJCAI'17**] Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, Xiuqiang He. `DeepFM: A Factorization-Machine based Neural Network for CTR Prediction <https://arxiv.org/abs/1703.04247>`_, *IJCAI*, 2017.
+#. [**IJCAI'17**] Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, Xiuqiang He. `DeepFM: A Factorization-Machine based Neural Network for CTR Prediction <https://arxiv.org/abs/1703.04247>`_, *IJCAI*, 2017. [**Huawei**]
 
 #. [**IJCAI'17**] Jun Xiao, Hao Ye, Xiangnan He, Hanwang Zhang, Fei Wu, Tat-Seng Chua. `Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks <http://www.ijcai.org/proceedings/2017/0435.pdf>`_, *IJCAI*, 2017.
    
 #. [**SIGIR'17**] Xiangnan He, Tat-Seng Chua. `Neural Factorization Machines for Sparse Predictive Analytics <https://dl.acm.org/citation.cfm?id=3080777>`_, *SIGIR*, 2017.
 
-#. [**ADKDD'17**] Ruoxi Wang, Bin Fu, Gang Fu, Mingliang Wang. `Deep & Cross Network for Ad Click Predictions <https://arxiv.org/abs/1708.05123>`_, *ADKDD*, 2017.
+#. [**ADKDD'17**] Ruoxi Wang, Bin Fu, Gang Fu, Mingliang Wang. `Deep & Cross Network for Ad Click Predictions <https://arxiv.org/abs/1708.05123>`_, *ADKDD*, 2017. [**Google**]
 
 #. [**TOIS'17**] Yanru Qu, Bohui Fang, Weinan Zhang, Ruiming Tang, Minzhe Niu, Huifeng Guo, Yong Yu, Xiuqiang He. `Product-based Neural Networks for User Response Prediction over Multi-field Categorical Data <>`_, *TOIS*, 2017. [**Huawei**, **Tencent**]
 
 2016
 ----
 
-#. [**DLRS'16**] Cheng, Heng-Tze, et al. `Wide & Deep Learning for Recommender Systems <https://dl.acm.org/citation.cfm?id=2988454>`_, *DLRS*, 2016.
+#. [**DLRS'16**] Cheng, Heng-Tze, et al. `Wide & Deep Learning for Recommender Systems <https://dl.acm.org/citation.cfm?id=2988454>`_, *DLRS*, 2016. [**Google**]
 
-#. [**ICDM'16**] Yanru Qu, Han Cai, Kan Ren, Weinan Zhang, Yong Yu, Ying Wen, Jun Wang. `Product-based Neural Networks for User Response Prediction <https://ieeexplore.ieee.org/abstract/document/7837964/>`_, *ICDM*, 2016.
+#. [**ICDM'16**] Yanru Qu, Han Cai, Kan Ren, Weinan Zhang, Yong Yu, Ying Wen, Jun Wang. `Product-based Neural Networks for User Response Prediction <https://arxiv.org/pdf/1611.00144.pdf>`_, *ICDM*, 2016.
 
-#. [**RecSys'16**] Juan, Yuchin, et al. `Field-aware Factorization Machines for CTR Prediction <https://dl.acm.org/citation.cfm?id=2959134>`_, *RecSys*, 2016.   
+#. [**RecSys'16**] Yuchin Juan, Yong Zhuang, Wei-Sheng Chin, Chih-Jen Lin. `Field-aware Factorization Machines for CTR Prediction <https://dl.acm.org/citation.cfm?id=2959134>`_, *RecSys*, 2016. [**Criteo**]
    
-#. [**ECIR'2016**] Weinan Zhang, Tianming Du, Jun Wang. `Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction <https://arxiv.org/abs/1601.02376>`_, *ECIR*, 2016.
+#. [**ECIR'2016**] Weinan Zhang, Tianming Du, Jun Wang. `Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction <https://arxiv.org/abs/1601.02376>`_, *ECIR*, 2016. [**RayCloud**]
 
-#. [**MM'16**] Junxuan Chen, Baigui Sun, Hao Li, Hongtao Lu, Xian-Sheng Hua. `Deep CTR Prediction in Display Advertising <https://dl.acm.org/citation.cfm?id=2964325>`_, *MM*, 2016.   
+#. [**MM'16**] Junxuan Chen, Baigui Sun, Hao Li, Hongtao Lu, Xian-Sheng Hua. `Deep CTR Prediction in Display Advertising <https://dl.acm.org/citation.cfm?id=2964325>`_, *MM*, 2016. [**Alibaba**]  
    
 
 2015
