@@ -6,7 +6,7 @@ Paper List
 
 #. [**CSUR'18**] Shuai Zhang, Lina Yao, Aixin Sun, Yi Tay. `Deep Learning based Recommender System: A Survey and New Perspectives <https://arxiv.org/pdf/1707.07435.pdf>`_, *CSUR*, 2018.
 
-#. [**WWW'18**] Junwei Pan, Jian Xu, Alfonso Lobos Ruiz, Wenliang Zhao, Shengjun Pan, Yu Sun, Quan Lu. `Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising <https://arxiv.org/pdf/1806.03514.pdf>`_, *WWW*, 2018. [**Oath**, **, **TouchPal**, **LinkedIn **, **Ablibaba**]
+#. [**WWW'18**] Junwei Pan, Jian Xu, Alfonso Lobos Ruiz, Wenliang Zhao, Shengjun Pan, Yu Sun, Quan Lu. `Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising <https://arxiv.org/pdf/1806.03514.pdf>`_, *WWW*, 2018. [**Oath**, **TouchPal**, **LinkedIn**, **Ablibaba**]
 
 #. [**WWW'18**] Surabhi Punjabi, Priyanka Bhatt. `Robust Factorization Machines for User Response Prediction <http://wnzhang.net/share/rtb-papers/rfm-www.pdf>`_, *WWW*, 2018. [**WalmartLabs**]
 
