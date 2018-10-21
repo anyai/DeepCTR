@@ -1,7 +1,15 @@
 Paper List
-==========
+----------
 
-1. [**CoRR'2018**] Jianxun Lian, Xiaohuan Zhou, Fuzheng Zhang, Zhongxia Chen, Xing Xie, Guangzhong Sun. `xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems <https://arxiv.org/abs/1803.05170>`_, *arXiv:1803.05170*, 2018.
+2018
+~~~~
+
+1. [**KDD'18**] Jianxun Lian, Xiaohuan Zhou, Fuzheng Zhang, Zhongxia Chen, Xing Xie, Guangzhong Sun. `xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems <https://arxiv.org/abs/1803.05170>`_, *KDD*, 2018.
+
+#. [**RecSys'18**] Weiwen Liu, Ruiming Tang, Jiajin Li, Jinkai Yu, Huifeng Guo, Xiuqiang He, Shengyu Zhang. `Field-aware Probabilistic Embedding Neural Network for CTR Prediction <https://dl.acm.org/citation.cfm?id=3240396>`_, *RecSys*, 2018.
+
+2017
+~~~~
 
 #. [**CoRR'2017**] Guorui Zhou, Chengru Song, Xiaoqiang Zhu, Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, Kun Gai. `Deep Interest Network for Click-Through Rate Prediction <https://arxiv.org/abs/1706.06978>`_, *arXiv:1706.06978*, 2017.
 
