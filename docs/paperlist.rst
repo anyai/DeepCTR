@@ -4,17 +4,23 @@ Paper List
 2018
 ----
 
-1. [**KDD'18**] Jianxun Lian, Xiaohuan Zhou, Fuzheng Zhang, Zhongxia Chen, Xing Xie, Guangzhong Sun. `xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems <https://arxiv.org/abs/1803.05170>`_, *KDD*, 2018.
+#. [**CSUR'18**] Shuai Zhang, Lina Yao, Aixin Sun, Yi Tay. `Deep Learning based Recommender System: A Survey and New Perspectives <https://arxiv.org/pdf/1707.07435.pdf>`_, *CSUR*, 2018.
 
-#. [**KDD'18**] Guorui Zhou, Chengru Song, Xiaoqiang Zhu, Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, Kun Gai. `Deep Interest Network for Click-Through Rate Prediction <https://arxiv.org/abs/1706.06978>`_, *KDD*, 2018.
+#. [**WWW'18**] Junwei Pan, Jian Xu, Alfonso Lobos Ruiz, Wenliang Zhao, Shengjun Pan, Yu Sun, Quan Lu. `Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising <https://arxiv.org/pdf/1806.03514.pdf>`_, *WWW*, 2018. [**Oath**, **, **TouchPal**, **LinkedIn **, **Ablibaba**]
 
-#. [**RecSys'18**] Weiwen Liu, Ruiming Tang, Jiajin Li, Jinkai Yu, Huifeng Guo, Xiuqiang He, Shengyu Zhang. `Field-aware Probabilistic Embedding Neural Network for CTR Prediction <https://dl.acm.org/citation.cfm?id=3240396>`_, *RecSys*, 2018.
+#. [**WWW'18**] Surabhi Punjabi, Priyanka Bhatt. `Robust Factorization Machines for User Response Prediction <http://wnzhang.net/share/rtb-papers/rfm-www.pdf>`_, *WWW*, 2018. [**WalmartLabs**]
+
+#. [**KDD'18**] Jianxun Lian, Xiaohuan Zhou, Fuzheng Zhang, Zhongxia Chen, Xing Xie, Guangzhong Sun. `xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems <https://arxiv.org/pdf/1803.05170.pdf>`_, *KDD*, 2018. [**Microsoft**]
+
+#. [**KDD'18**] Guorui Zhou, Chengru Song, Xiaoqiang Zhu, Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, Kun Gai. `Deep Interest Network for Click-Through Rate Prediction <https://arxiv.org/pdf/1706.06978.pdf>`_, *KDD*, 2018. [**Alibaba**]
+
+#. [**RecSys'18**] Weiwen Liu, Ruiming Tang, Jiajin Li, Jinkai Yu, Huifeng Guo, Xiuqiang He, Shengyu Zhang. `Field-aware Probabilistic Embedding Neural Network for CTR Prediction <https://dl.acm.org/citation.cfm?id=3240396>`_, *RecSys*, 2018. [**Huawei**]
+
+
 
 
 2017
 ----
-
-#. [**ADKDD'17**] Ruoxi Wang, Bin Fu, Gang Fu, Mingliang Wang. `Deep & Cross Network for Ad Click Predictions <https://arxiv.org/abs/1708.05123>`_, *ADKDD*, 2017.
 
 #. [**IJCAI'17**] Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, Xiuqiang He. `DeepFM: A Factorization-Machine based Neural Network for CTR Prediction <https://arxiv.org/abs/1703.04247>`_, *IJCAI*, 2017.
 
@@ -22,7 +28,9 @@ Paper List
    
 #. [**SIGIR'17**] Xiangnan He, Tat-Seng Chua. `Neural Factorization Machines for Sparse Predictive Analytics <https://dl.acm.org/citation.cfm?id=3080777>`_, *SIGIR*, 2017.
 
+#. [**ADKDD'17**] Ruoxi Wang, Bin Fu, Gang Fu, Mingliang Wang. `Deep & Cross Network for Ad Click Predictions <https://arxiv.org/abs/1708.05123>`_, *ADKDD*, 2017.
 
+#. [**TOIS'17**] Yanru Qu, Bohui Fang, Weinan Zhang, Ruiming Tang, Minzhe Niu, Huifeng Guo, Yong Yu, Xiuqiang He. `Product-based Neural Networks for User Response Prediction over Multi-field Categorical Data <>`_, *TOIS*, 2017. [**Huawei**, **Tencent**]
 
 2016
 ----
