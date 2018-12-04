@@ -3,10 +3,10 @@
 
 
 ### Datasets
-| Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
+| CTR Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
 | :-----: |:------------|-----------:| -------:|-------:|----------:|------:|
 | **Recommendation** |
-| Taobao   | [A dataset gathered from the recommender system in Taobao](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408) | | | | ||
+| Taobao   | [A click dataset gathered from the recommender system in Taobao](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408) | | | | ||
 | Outbrain  | [A dataset of users' page views and clicks in Outbrain](https://www.kaggle.com/c/outbrain-click-prediction/data) | | | | ||
 | **Ad targeting** |
 | Criteo  | [A Kaggle display advertising challenge dataset from Criteo](https://www.kaggle.com/c/criteo-display-ad-challenge/data) | | | | ||
@@ -14,4 +14,13 @@
 | Avazo  | [11 days of click-through data from Avazu](https://www.kaggle.com/c/avazu-ctr-prediction/data) | | | | ||
 | iPinyou  | | | | | ||
 | **Web search** |
-| XXX  | | | | | ||
+| Yandex  | [A click dataset for personalized Web search challenge from Yandex](https://www.kaggle.com/c/yandex-personalized-web-search-challenge) | | | | ||
+| Tencent  | A click dataset for KDD Cup 2012 from Tencent  | | | | ||
+| Avito | | | | | ||
+
+
+| CVR Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
+| :-----: |:------------|-----------:| -------:|-------:|----------:|------:|
+| YooChoose |  | | | | ||
+| Alimama  |   | | | | ||
+| Taobao   | [A click dataset gathered from the recommender system in Taobao](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408) | | | | ||
