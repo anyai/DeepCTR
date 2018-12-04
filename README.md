@@ -5,7 +5,7 @@
 ### Datasets
 | Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
 | :-----: |:------------|-----------:| -------:|-------:|----------:|------:|
-| **Recommender system** |
+| **Recommendation** |
 | Taobao   | A dataset gathered from the recommender system in Taobao [[download](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408)] | | | | ||
 | Outbrain  | | | | | ||
 | **Ad targeting** |
