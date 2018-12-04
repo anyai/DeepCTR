@@ -6,12 +6,12 @@
 | Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
 | :-----: |:------------|-----------:| -------:|-------:|----------:|------:|
 | **Recommendation** |
-| Taobao   | A dataset gathered from the recommender system in Taobao [[download](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408)] | | | | ||
-| Outbrain  | | | | | ||
+| Taobao   | [A dataset gathered from the recommender system in Taobao](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408) | | | | ||
+| Outbrain  | [A dataset of users' page views and clicks in Outbrain](https://www.kaggle.com/c/outbrain-click-prediction/data) | | | | ||
 | **Ad targeting** |
-| Criteo  | A Kaggle display advertising challenge dataset from Criteo [[download](https://s3-eu-west-1.amazonaws.com/kaggle-display-advertising-challenge-dataset/dac.tar.gz)] | | | | ||
-| Criteo1T  | | | | | ||
-| Avazo  | | | | | ||
+| Criteo  | [A Kaggle display advertising challenge dataset from Criteo](https://www.kaggle.com/c/criteo-display-ad-challenge/data) | | | | ||
+| Criteo1TB  | [A Terabyte display advertising dataset from Criteo](http://labs.criteo.com/2013/12/download-terabyte-click-logs-2/) | | | | ||
+| Avazo  | [11 days of click-through data from Avazu](https://www.kaggle.com/c/avazu-ctr-prediction/data) | | | | ||
 | iPinyou  | | | | | ||
 | **Web search** |
 | XXX  | | | | | ||
