@@ -17,10 +17,8 @@
 | Yandex  | [A click dataset for personalized Web search challenge from Yandex](https://www.kaggle.com/c/yandex-personalized-web-search-challenge) | | | | ||
 | Tencent  | A click dataset for KDD Cup 2012 from Tencent  | | | | ||
 | Avito | | | | | ||
-
-
+| |
 | CVR Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
-| :-----: |:------------|-----------:| -------:|-------:|----------:|------:|
 | YooChoose |  | | | | ||
 | Alimama  |   | | | | ||
 | Taobao   | [A click dataset gathered from the recommender system in Taobao](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408) | | | | ||
