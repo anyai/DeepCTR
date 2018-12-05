@@ -1,5 +1,11 @@
-Paper List
-==========
+Papers
+======
+
+A list of papers on CTR/CVR prediction.
+
+
+2019
+----
 
 2018
 ----
@@ -34,6 +40,8 @@ Paper List
 
 2016
 ----
+
+#. [**DLRS'16**] Paul Covington, Jay Adams, Emre Sargin. `Deep Neural Networks for YouTube Recommendations <http://art.yale.edu/file_columns/0001/1132/covington.pdf>`_, *RecSys*, 2016. [**Google**]
 
 #. [**DLRS'16**] Cheng, Heng-Tze, et al. `Wide & Deep Learning for Recommender Systems <https://dl.acm.org/citation.cfm?id=2988454>`_, *DLRS*, 2016. [**Google**]
 
