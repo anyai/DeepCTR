@@ -21,7 +21,6 @@
     + [Tencent](https://www.kaggle.com/c/kddcup2012-track2): A click dataset for KDD Cup 2012 from Tencent
     + [Avito](https://www.kaggle.com/c/avito-context-ad-clicks/data): A dataset of contextual search Ad clicks from Avito
 + CVR datasets
-
-+ [YooChoose](https://2015.recsyschallenge.com/index.html): A sequence of click and purchase events in an e-commerce website from YooChoose
-+ [Alimama](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100069.5678.1.560d7a7eSjZLxq&raceId=231647): A dataset for sponsored product search in Alibaba
-+ [JData](https://jdata.jd.com/html/detail.html?id=1): A dataset for purchase prediction in JD.com
+    + [YooChoose](https://2015.recsyschallenge.com/index.html): A sequence of click and purchase events in an e-commerce website from YooChoose
+    + [Alimama](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100069.5678.1.560d7a7eSjZLxq&raceId=231647): A dataset for sponsored product search in Alibaba
+    + [JData](https://jdata.jd.com/html/detail.html?id=1): A dataset for purchase prediction in JD.com
