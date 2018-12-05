@@ -1,6 +1,7 @@
 [![Documentation Status](https://readthedocs.org/projects/deepctr/badge/?version=latest)](https://deepctr.readthedocs.io/en/latest/?badge=latest)
 
-
+# DeepCTR
+A review and evaluation of CTR prediction models
 
 ### Datasets
 | CTR Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
