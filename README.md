@@ -3,6 +3,25 @@
 # DeepCTR
 A review and evaluation of CTR prediction models
 
+### Models
+| Model | Year | Reference | Status | 
+| :-----: | :-------|:------------|:----------:|
+| LR | |||
+| FTLR ||||
+| FM |2010 |[ICDM'10] [Factorization Machines](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf)||
+| FFM ||||
+| GBDT ||||
+| DNN ||||
+| Wide&Deep ||||
+| CCPM ||||
+| FNN ||||
+| PNN ||||
+| DeepFM ||||
+| NFM ||||
+| AFM ||||
+| xDeepFM |2018|[KDD'18] [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf), Microsoft||
+
+
 ### Datasets
 | CTR Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
 | :-----: |:------------|-----------:| -------:|-------:|----------:|------:|
