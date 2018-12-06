@@ -24,9 +24,9 @@ A list of papers on CTR/CVR prediction.
 
 1. [**TOIS'18**] Yanru Qu, Bohui Fang, Weinan Zhang, Ruiming Tang, Minzhe Niu, Huifeng Guo, Yong Yu, Xiuqiang He. [Product-based Neural Networks for User Response Prediction over Multi-field Categorical Data](https://arxiv.org/abs/1807.00311), *TOIS*, 2018. [**Huawei**, **Tencent**]
 
-1. [**CoRR**] Mehul Parsana, Krishna Poola, Yajun Wang, Zhiguang Wang. [Improving Native Ads CTR Prediction by Large Scale Event Embedding and Recurrent Networks](https://arxiv.org/abs/1804.09133), *arXiv:1804.09133*, 2018.
+1. [**CoRR**] Mehul Parsana, Krishna Poola, Yajun Wang, Zhiguang Wang. [Improving Native Ads CTR Prediction by Large Scale Event Embedding and Recurrent Networks](https://arxiv.org/abs/1804.09133), *arXiv:1804.09133*, 2018. [**Microsoft**]
 
-1. [**CoRR**] Jelena Gligorijevic, Djordje Gligorijevic, Ivan Stojkovic, Xiao Bai, Amit Goyal, Zoran Obradovic. [Deeply Supervised Semantic Model for Click-Through Rate Prediction in Sponsored Search](https://arxiv.org/abs/1803.10739), *arXiv:1803.10739*, 2018.
+1. [**CoRR**] Jelena Gligorijevic, Djordje Gligorijevic, Ivan Stojkovic, Xiao Bai, Amit Goyal, Zoran Obradovic. [Deeply Supervised Semantic Model for Click-Through Rate Prediction in Sponsored Search](https://arxiv.org/abs/1803.10739), *arXiv:1803.10739*, 2018. [**Yahoo**, **Criteo**]
 
 ### 2017
 
