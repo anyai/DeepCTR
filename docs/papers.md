@@ -24,6 +24,10 @@ A list of papers on CTR/CVR prediction.
 
 1. [**TOIS'18**] Yanru Qu, Bohui Fang, Weinan Zhang, Ruiming Tang, Minzhe Niu, Huifeng Guo, Yong Yu, Xiuqiang He. [Product-based Neural Networks for User Response Prediction over Multi-field Categorical Data](https://arxiv.org/abs/1807.00311), *TOIS*, 2018. [**Huawei**, **Tencent**]
 
+1. [**CoRR**] Mehul Parsana, Krishna Poola, Yajun Wang, Zhiguang Wang. [Improving Native Ads CTR Prediction by Large Scale Event Embedding and Recurrent Networks](https://arxiv.org/abs/1804.09133), *arXiv:1804.09133*, 2018.
+
+1. [**CoRR**] Jelena Gligorijevic, Djordje Gligorijevic, Ivan Stojkovic, Xiao Bai, Amit Goyal, Zoran Obradovic. [Deeply Supervised Semantic Model for Click-Through Rate Prediction in Sponsored Search](https://arxiv.org/abs/1803.10739), *arXiv:1803.10739*, 2018.
+
 ### 2017
 
 1. [**IJCAI'17**] Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, Xiuqiang He. [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/abs/1703.04247), *IJCAI*, 2017. [**Huawei**]
@@ -53,7 +57,7 @@ A list of papers on CTR/CVR prediction.
 
 ### 2015
 
-+ [**IJCAI'15**] Image Feature Learning for Cold Start Problem in Display Advertising
++ [**IJCAI'15**] Kaixiang Mo, Bo Liu, Lei Xiao, Yong Li, Jie Jiang. [Image Feature Learning for Cold Start Problem in Display Advertising](), *IJCAI*, 2015.
 
 + [**CIKM'15**] Qiang Liu, Feng Yu, Shu Wu, Liang Wang. [A Convolutional Click Prediction Model](http://www.escience.cn/system/download/73676), *CIKM*, 2015.
  
