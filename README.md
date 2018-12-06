@@ -20,7 +20,8 @@ A review and evaluation of CTR prediction models
 | NFM |2017| [SIGIR'17] [Neural Factorization Machines for Sparse Predictive Analytics](https://dl.acm.org/citation.cfm?id=3080777) | :heavy_check_mark: |
 | AFM |2017|[IJCAI'17] [Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks](http://www.ijcai.org/proceedings/2017/0435.pdf) |:heavy_check_mark:|
 | DCN | 2017 | [ADKDD'17] [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123), Google | :heavy_check_mark:|
-| xDeepFM |2018|[KDD'18] [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf), Microsoft||
+| xDeepFM |2018|[KDD'18] [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf), Microsoft| :heavy_multiplication_x: |
+| | 2018 | [WWW'18] [Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](https://arxiv.org/pdf/1806.03514.pdf), Oath, TouchPal, LinkedIn, Ablibaba | :heavy_multiplication_x: |
 
 
 ### Datasets
