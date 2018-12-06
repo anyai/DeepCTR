@@ -53,6 +53,8 @@ A list of papers on CTR/CVR prediction.
 
 ### 2015
 
++ [**IJCAI'15**] Image Feature Learning for Cold Start Problem in Display Advertising
+
 + [**CIKM'15**] Qiang Liu, Feng Yu, Shu Wu, Liang Wang. [A Convolutional Click Prediction Model](http://www.escience.cn/system/download/73676), *CIKM*, 2015.
  
 
