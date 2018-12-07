@@ -38,7 +38,7 @@ A list of papers on CTR/CVR prediction.
 
 1. [**ADKDD'17**] Ruoxi Wang, Bin Fu, Gang Fu, Mingliang Wang. [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123), *ADKDD*, 2017. [**Google**]
 
-1. [**WWW'17**] Yuchin Juan, Damien Lefortier, Olivier Chapelle. [Field-aware Factorization Machines in a Real-world Online Advertising System](https://arxiv.org/pdf/1701.04099.pdf), *WWW*, 2017.
+1. [**WWW'17**] Yuchin Juan, Damien Lefortier, Olivier Chapelle. [Field-aware Factorization Machines in a Real-world Online Advertising System](https://arxiv.org/pdf/1701.04099.pdf), *WWW*, 2017. [**Criteo**, **Facebook**, **Google**]
 
 
 
@@ -59,7 +59,7 @@ A list of papers on CTR/CVR prediction.
 
 ### 2015
 
-+ [**IJCAI'15**] Kaixiang Mo, Bo Liu, Lei Xiao, Yong Li, Jie Jiang. [Image Feature Learning for Cold Start Problem in Display Advertising](), *IJCAI*, 2015.
++ [**IJCAI'15**] Kaixiang Mo, Bo Liu, Lei Xiao, Yong Li, Jie Jiang. [Image Feature Learning for Cold Start Problem in Display Advertising](https://www.ijcai.org/Proceedings/15/Papers/524.pdf), *IJCAI*, 2015. [**Tencent**]
 
 + [**CIKM'15**] Qiang Liu, Feng Yu, Shu Wu, Liang Wang. [A Convolutional Click Prediction Model](http://www.escience.cn/system/download/73676), *CIKM*, 2015.
  
