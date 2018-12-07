@@ -30,12 +30,15 @@ A review and evaluation of CTR prediction models
 | **Recommendation** |
 | Taobao   | [A click dataset gathered from the recommender system in Taobao](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408) | | | | ||
 | Outbrain  | [A dataset of users' page views and clicks in Outbrain](https://www.kaggle.com/c/outbrain-click-prediction/data) | | | | ||
+| Frappy  | [A dataset of xxxxx]() | | | | ||
 | **Ad targeting** |
 | Criteo  | [A Kaggle display advertising challenge dataset from Criteo](https://www.kaggle.com/c/criteo-display-ad-challenge/data) | | | | ||
 | Avazo  | [11 days of click-through data from Avazu](https://www.kaggle.com/c/avazu-ctr-prediction/data) | | | | ||
 | iPinyou  | [A real-time bidding algorithm competition dataset from iPinyou](http://contest.ipinyou.com/) | | | | ||
 
 **Other relevant datasets:**
++ Recommendation
+    + [Amazon](http://jmcauley.ucsd.edu/data/amazon/): A dataset of product reviews and metadata from Amazon
 + Ad targeting
     + [Criteo1TB](http://labs.criteo.com/2013/12/download-terabyte-click-logs-2/): A Terabyte display advertising dataset from Criteo
 + Web search / sponsored search
