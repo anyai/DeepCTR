@@ -25,7 +25,7 @@ A review and evaluation of CTR prediction models
 
 
 ### Datasets
-| CTR Dataset | Description | #Instances | #Fields | #Train | #Validate | #Test | 
+| CTR Dataset | Description | #Fields | #Instances | #Train | #Validate | #Test | 
 | :-----: |:------------|-----------:| -------:|-------:|----------:|------:|
 | **Recommendation** |
 | Taobao   | [A click dataset gathered from the recommender system in Taobao](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408) | | | | ||
@@ -33,7 +33,7 @@ A review and evaluation of CTR prediction models
 | Frappy  | [A dataset of xxxxx]() | | | | ||
 | **Ad targeting** |
 | Criteo  | [A Kaggle display advertising challenge dataset from Criteo](https://www.kaggle.com/c/criteo-display-ad-challenge/data) | | | | ||
-| Avazo  | [11 days of click-through data from Avazu](https://www.kaggle.com/c/avazu-ctr-prediction/data) | | | | ||
+| Avazu  | [11 days of click-through data from Avazu](https://www.kaggle.com/c/avazu-ctr-prediction/data) | 23 | 40,428,967 | 32,377,421 | 3,832,608 | 4,218,938 |
 | iPinyou  | [A real-time bidding algorithm competition dataset from iPinyou](http://contest.ipinyou.com/) | | | | ||
 
 **Other relevant datasets:**
