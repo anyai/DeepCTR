@@ -38,6 +38,8 @@ A list of papers on CTR/CVR prediction.
 
 1. [**ADKDD'17**] Ruoxi Wang, Bin Fu, Gang Fu, Mingliang Wang. [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123), *ADKDD*, 2017. [**Google**]
 
+1. [**WWW'17**] Yuchin Juan, Damien Lefortier, Olivier Chapelle. [Field-aware Factorization Machines in a Real-world Online Advertising System](https://arxiv.org/pdf/1701.04099.pdf), *WWW*, 2017.
+
 
 
 ### 2016
