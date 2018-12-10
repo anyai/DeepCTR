@@ -25,15 +25,15 @@ A review and evaluation of CTR prediction models
 
 
 ### Datasets
-| Dataset |  #Fields | #Features | #Instances | #Training | #Validation | #Test | 
-| :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:------:|
+| Dataset |  #Fields | #Features | #Instances | #Training | #Validation | #Test | Positive Ratio |
+| :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:------:|:------:|
 | **Advertising** |
-| [Criteo](https://github.com/anyai/deepCTR/tree/master/data#criteo)  | | | | |||
-| [Avazu](https://github.com/anyai/deepCTR/tree/master/data#avazu)  |  23 || 40,428,967 | 32,377,421 | 3,832,608 | 4,218,938 |
-| [iPinyou](https://github.com/anyai/deepCTR/tree/master/data#ipinyou)  | | | | |||
+| [Criteo](https://github.com/anyai/deepCTR/tree/master/data#criteo)  |39 |  |45,840,617 |32,743,297 |6,548,660| 6,548,660||
+| [Avazu](https://github.com/anyai/deepCTR/tree/master/data#avazu)  |  23 || 40,428,967 | 32,377,421 | 3,832,608 | 4,218,938 ||
+| [iPinyou](https://github.com/anyai/deepCTR/tree/master/data#ipinyou)  | | | | ||||
 | **Recommendation** |
-| [Taobao](https://github.com/anyai/deepCTR/tree/master/data#taobao)   |  | | | |||
-| [Outbrain](https://github.com/anyai/deepCTR/tree/master/data#outbrain)  |  | | | |||
-| [Frappe](https://github.com/anyai/deepCTR/tree/master/data#frappe)  |  | | | |||
+| [Taobao](https://github.com/anyai/deepCTR/tree/master/data#taobao)   |  | | | ||||
+| [Outbrain](https://github.com/anyai/deepCTR/tree/master/data#outbrain)  |  | | | ||||
+| [Frappe](https://github.com/anyai/deepCTR/tree/master/data#frappe)  |  | | | ||||
 
 
