@@ -30,7 +30,7 @@ A review and evaluation of CTR prediction models
 | **Advertising** |
 | [Criteo](https://github.com/anyai/deepCTR/tree/master/data#criteo)  |39 |  |45,840,617 |32,743,297 |6,548,660| 6,548,660||
 | [Avazu](https://github.com/anyai/deepCTR/tree/master/data#avazu)  |  23 || 40,428,967 | 32,377,421 | 3,832,608 | 4,218,938 ||
-| [iPinyou](https://github.com/anyai/deepCTR/tree/master/data#ipinyou)  | | | | ||||
+| [iPinyou](https://github.com/anyai/deepCTR/tree/master/data#ipinyou)  | | | 14,759,750 |10,580,553 | 1,657,567 | 2,521,630 ||
 | **Recommendation** |
 | [Taobao](https://github.com/anyai/deepCTR/tree/master/data#taobao)   |  | | | ||||
 | [Outbrain](https://github.com/anyai/deepCTR/tree/master/data#outbrain)  |  | | | ||||
