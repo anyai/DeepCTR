@@ -24,6 +24,9 @@ A list of papers on CTR/CVR prediction.
 
 1. [**TOIS'18**] Yanru Qu, Bohui Fang, Weinan Zhang, Ruiming Tang, Minzhe Niu, Huifeng Guo, Yong Yu, Xiuqiang He. [Product-based Neural Networks for User Response Prediction over Multi-field Categorical Data](https://arxiv.org/abs/1807.00311), *TOIS*, 2018. [**Huawei**, **Tencent**]
 
+1. Xiao Ma, Liqin Zhao, Guan Huang, Zhi Wang, Zelin Hu, Xiaoqiang Zhu, Kun Gai. [Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate](https://arxiv.org/pdf/1804.07931), **SIGIR**, 2018. [**Alibaba**]
+   > 本文提出了基于multi-task learning的框架ESMM首次将CTR和CVR两个task进行关联学习，CTR和CVR满足pCTCVR = pCTR * pCVR。 pCVR一般是表示在点击后产生转化的概率，之前的模型都使用clicked samples进行训练，又在预测时却在all impression samples来做预测，产生sample selection bias问题。同时CVR的正样本数据要远小于CTR数据，所以两个任务的共享可优化特征表征。宏观上，CVR能使用中间步骤CTR标签，充分利用了数据特性。
+
 1. [**CoRR**] Mehul Parsana, Krishna Poola, Yajun Wang, Zhiguang Wang. [Improving Native Ads CTR Prediction by Large Scale Event Embedding and Recurrent Networks](https://arxiv.org/abs/1804.09133), *arXiv:1804.09133*, 2018. [**Microsoft**]
 
 1. [**CoRR**] Jelena Gligorijevic, Djordje Gligorijevic, Ivan Stojkovic, Xiao Bai, Amit Goyal, Zoran Obradovic. [Deeply Supervised Semantic Model for Click-Through Rate Prediction in Sponsored Search](https://arxiv.org/abs/1803.10739), *arXiv:1803.10739*, 2018. [**Yahoo**, **Criteo**]
