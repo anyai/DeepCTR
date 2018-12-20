@@ -24,7 +24,7 @@ A list of papers on CTR/CVR prediction.
 
 1. [**TOIS'18**] Yanru Qu, Bohui Fang, Weinan Zhang, Ruiming Tang, Minzhe Niu, Huifeng Guo, Yong Yu, Xiuqiang He. [Product-based Neural Networks for User Response Prediction over Multi-field Categorical Data](https://arxiv.org/abs/1807.00311), *TOIS*, 2018. [**Huawei**, **Tencent**]
 
-1. Xiao Ma, Liqin Zhao, Guan Huang, Zhi Wang, Zelin Hu, Xiaoqiang Zhu, Kun Gai. [Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate](https://arxiv.org/pdf/1804.07931), **SIGIR**, 2018. [**Alibaba**]
+1. [**SIGIR'18**] Xiao Ma, Liqin Zhao, Guan Huang, Zhi Wang, Zelin Hu, Xiaoqiang Zhu, Kun Gai. [Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate](https://arxiv.org/pdf/1804.07931), *SIGIR*, 2018. [**Alibaba**]
    > 本文提出了基于multi-task learning的框架ESMM首次将CTR和CVR两个task进行关联学习，CTR和CVR满足pCTCVR = pCTR * pCVR。 pCVR一般是表示在点击后产生转化的概率，之前的模型都使用clicked samples进行训练，又在预测时却在all impression samples来做预测，产生sample selection bias问题。同时CVR的正样本数据要远小于CTR数据，所以两个任务的共享可优化特征表征。宏观上，CVR能使用中间步骤CTR标签，充分利用了数据特性。[[More](https://zhuanlan.zhihu.com/p/37562283)]
 
 1. [**CoRR**] Mehul Parsana, Krishna Poola, Yajun Wang, Zhiguang Wang. [Improving Native Ads CTR Prediction by Large Scale Event Embedding and Recurrent Networks](https://arxiv.org/abs/1804.09133), *arXiv:1804.09133*, 2018. [**Microsoft**]
@@ -44,8 +44,7 @@ A list of papers on CTR/CVR prediction.
 1. [**WWW'17**] Yuchin Juan, Damien Lefortier, Olivier Chapelle. [Field-aware Factorization Machines in a Real-world Online Advertising System](https://arxiv.org/pdf/1701.04099.pdf), *WWW*, 2017. [**Criteo**, **Facebook**, **Google**]
 
 1. [**WWW'17**] Huifeng Guo, 	Ruiming Tang, Yunming Ye, 	Xiuqiang He. [Holistic Neural Network for CTR Prediction](https://dl.acm.org/citation.cfm?doid=3041021.3054208), *WWW*, 2017. [**Huawei**]
-
-
+   > 本文提出了一个Holistic Neural Network框架，就是在网络架构上把所有输入层和中间层representation vector也传递到output layer做concat, 最后通过softmax做分类，这样能在最终分类器层同时利用low-order和high-order表征，有点类似Wide&Deep的思路。
 
 
 ### 2016
