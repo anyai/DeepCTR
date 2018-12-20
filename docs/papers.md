@@ -43,6 +43,9 @@ A list of papers on CTR/CVR prediction.
 
 1. [**WWW'17**] Yuchin Juan, Damien Lefortier, Olivier Chapelle. [Field-aware Factorization Machines in a Real-world Online Advertising System](https://arxiv.org/pdf/1701.04099.pdf), *WWW*, 2017. [**Criteo**, **Facebook**, **Google**]
 
+1. [**WWW'17**] Huifeng Guo, 	Ruiming Tang, Yunming Ye, 	Xiuqiang He. [Holistic Neural Network for CTR Prediction](https://dl.acm.org/citation.cfm?doid=3041021.3054208), *WWW*, 2017. [**Huawei**]
+
+
 
 
 ### 2016
