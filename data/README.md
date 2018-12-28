@@ -27,7 +27,7 @@
 
 + Recommendation
     + [Amazon](http://jmcauley.ucsd.edu/data/amazon/): A dataset of product reviews and metadata from Amazon
-+ Ad targeting
++ Online advertising
     + [Criteo1TB](http://labs.criteo.com/2013/12/download-terabyte-click-logs-2/): A Terabyte display advertising dataset from Criteo
 + Web search / sponsored search
     + [Yandex](https://www.kaggle.com/c/yandex-personalized-web-search-challenge): A click dataset for personalized Web search challenge from Yandex
