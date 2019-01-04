@@ -4,7 +4,7 @@ A list of papers on CTR/CVR prediction.
 
 
 ### 2019
-
+1. [**AAAI'19**] Accurate and Interpretable Factorization Machines
 
 ### 2018
 
