@@ -17,9 +17,6 @@
 
 [A click dataset gathered from the recommender system in Taobao](https://tianchi.aliyun.com/datalab/dataSet.html?dataId=408) 
 
-### Outbrain
-[A dataset of users' page views and clicks in Outbrain](https://www.kaggle.com/c/outbrain-click-prediction/data) 
-
 ### Frappe
 [A dataset for context-aware app recommendation in Frappe](https://arxiv.org/abs/1505.03014) 
 
@@ -29,6 +26,7 @@
     + [Amazon](http://jmcauley.ucsd.edu/data/amazon/): A dataset of product reviews and metadata from Amazon
 + Online advertising
     + [Criteo1TB](http://labs.criteo.com/2013/12/download-terabyte-click-logs-2/): A Terabyte display advertising dataset from Criteo
+    + [Outbrain](https://www.kaggle.com/c/outbrain-click-prediction/data): A dataset of users' page views and clicks in Outbrain
 + Web search / sponsored search
     + [Yandex](https://www.kaggle.com/c/yandex-personalized-web-search-challenge): A click dataset for personalized Web search challenge from Yandex
     + [Tencent](https://www.kaggle.com/c/kddcup2012-track2): A click dataset for KDD Cup 2012 from Tencent
