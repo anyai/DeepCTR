@@ -4,8 +4,8 @@
 A review and evaluation of CTR prediction models
 
 ### Models
-| Model | Year | Paper | Available | 
-| :-----: | :-------|:------------|:----------:|
+| Model | Conference | Paper | Available | 
+| :-----: | -------: |:------------|:----------:|
 | LR | |||
 | FM |ICDM'10 | [Factorization Machines](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf)||
 | FTRL | KDD'13| [Ad Click Prediction: a View from the Trenches](https://www.researchgate.net/publication/262412214_Ad_click_prediction_a_view_from_the_trenches) [**Google**]||
