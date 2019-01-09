@@ -1,9 +1,17 @@
 # Papers
 
-A list of papers on CTR/CVR prediction.
+A list of papers on CTR/CVR prediction in online advertising, recommendation, and sponsored search.
++ [Categorical Representation Learning](#Categorical-Representation-Learning)
++ [User Behavior Modeling](#User-Behavior-Modeling)
++ [Sponsored Search](#Sponsored-Search)
++ [Sequential Recommendation](#Sequential-Recommendation)
++ [Multimodal Representation Learning](#Multimodal-Representation-Learning)
++ [Reinforcement/Online Learning](#Reinforcement/Online-Learning)
++ [Others](#Others)
 
-
+## Categorical Representation Learning
 ### 2019
+
 1. [**AAAI'19**] Accurate and Interpretable Factorization Machines
 
 ### 2018
@@ -24,12 +32,7 @@ A list of papers on CTR/CVR prediction.
 
 1. [**TOIS'18**] Yanru Qu, Bohui Fang, Weinan Zhang, Ruiming Tang, Minzhe Niu, Huifeng Guo, Yong Yu, Xiuqiang He. [Product-based Neural Networks for User Response Prediction over Multi-field Categorical Data](https://arxiv.org/abs/1807.00311), *TOIS*, 2018. [**Huawei**, **Tencent**]
 
-1. [**SIGIR'18**] Xiao Ma, Liqin Zhao, Guan Huang, Zhi Wang, Zelin Hu, Xiaoqiang Zhu, Kun Gai. [Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate](https://arxiv.org/pdf/1804.07931), *SIGIR*, 2018. [**Alibaba**]
-   > 本文提出了基于multi-task learning的框架ESMM首次将CTR和CVR两个task进行关联学习，CTR和CVR满足pCTCVR = pCTR * pCVR。 pCVR一般是表示在点击后产生转化的概率，之前的模型都使用clicked samples进行训练，又在预测时却在all impression samples来做预测，产生sample selection bias问题。同时CVR的正样本数据要远小于CTR数据，所以两个任务的共享可优化特征表征。宏观上，CVR能使用中间步骤CTR标签，充分利用了数据特性。[[Read more...](https://zhuanlan.zhihu.com/p/37562283)]
-
 1. [**CoRR**] Mehul Parsana, Krishna Poola, Yajun Wang, Zhiguang Wang. [Improving Native Ads CTR Prediction by Large Scale Event Embedding and Recurrent Networks](https://arxiv.org/abs/1804.09133), *arXiv:1804.09133*, 2018. [**Microsoft**]
-
-1. [**CoRR**] Jelena Gligorijevic, Djordje Gligorijevic, Ivan Stojkovic, Xiao Bai, Amit Goyal, Zoran Obradovic. [Deeply Supervised Semantic Model for Click-Through Rate Prediction in Sponsored Search](https://arxiv.org/abs/1803.10739), *arXiv:1803.10739*, 2018. [**Yahoo**, **Criteo**]
 
 1. [**CoRR**] [AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks](), 
 
@@ -66,16 +69,11 @@ A list of papers on CTR/CVR prediction.
 
 ### 2015
 
-+ [**IJCAI'15**] Kaixiang Mo, Bo Liu, Lei Xiao, Yong Li, Jie Jiang. [Image Feature Learning for Cold Start Problem in Display Advertising](https://www.ijcai.org/Proceedings/15/Papers/524.pdf), *IJCAI*, 2015. [**Tencent**]
-
 + [**CIKM'15**] Qiang Liu, Feng Yu, Shu Wu, Liang Wang. [A Convolutional Click Prediction Model](http://www.escience.cn/system/download/73676), *CIKM*, 2015.
 
 + [**TIST'15**] Simple and Scalable Response Prediction for Display Advertising, *TIST*, 2015.
 
-2014
-----
-
-1. [**AAAI'14**] Yuyu Zhang, Hanjun Dai, Chang Xu, Jun Feng, Taifeng Wang, Jiang Bian, Bin Wang, Tie-Yan Liu. [Sequential Click Prediction for Sponsored Search with Recurrent Neural Networks](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/download/8529/8581), *AAAI*, 2014.
+### 2014
    
 1. [**ADKDD'14**] Xinran He, Junfeng Pan, Ou Jin, Tianbing Xu, Bo Liu, Tao Xu, Yanxin Shi, Antoine Atallah, Ralf Herbrich, Stuart Bowers, Joaquin Quiñonero Candela. [Practical Lessons from Predicting Clicks on Ads at Facebook](https://dl.acm.org/citation.cfm?id=2648589), *ADKDD*, 2014. [**Facebook**]
 
@@ -91,4 +89,20 @@ A list of papers on CTR/CVR prediction.
 ### 2007   
 + [**WWW'07**] Matthew Richardson, Ewa Dominowska, Robert Ragno. [Predicting Clicks: Estimating the Click-Through Rate for New Ads](https://dl.acm.org/citation.cfm?id=1242643), *WWW*, 2007. [**Microsoft**]
 
-   
+## User Behavior Modeling
+
+## Sponsored Search
+1. [**CoRR**] Jelena Gligorijevic, Djordje Gligorijevic, Ivan Stojkovic, Xiao Bai, Amit Goyal, Zoran Obradovic. [Deeply Supervised Semantic Model for Click-Through Rate Prediction in Sponsored Search](https://arxiv.org/abs/1803.10739), *arXiv:1803.10739*, 2018. [**Yahoo**, **Criteo**]
+
+## Sequential Recommendation
+1. [**AAAI'14**] Yuyu Zhang, Hanjun Dai, Chang Xu, Jun Feng, Taifeng Wang, Jiang Bian, Bin Wang, Tie-Yan Liu. [Sequential Click Prediction for Sponsored Search with Recurrent Neural Networks](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/download/8529/8581), *AAAI*, 2014.
+
+## Multitask Learning
+1. [**SIGIR'18**] Xiao Ma, Liqin Zhao, Guan Huang, Zhi Wang, Zelin Hu, Xiaoqiang Zhu, Kun Gai. [Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate](https://arxiv.org/pdf/1804.07931), *SIGIR*, 2018. [**Alibaba**]
+   > 本文提出了基于multi-task learning的框架ESMM首次将CTR和CVR两个task进行关联学习，CTR和CVR满足pCTCVR = pCTR * pCVR。 pCVR一般是表示在点击后产生转化的概率，之前的模型都使用clicked samples进行训练，又在预测时却在all impression samples来做预测，产生sample selection bias问题。同时CVR的正样本数据要远小于CTR数据，所以两个任务的共享可优化特征表征。宏观上，CVR能使用中间步骤CTR标签，充分利用了数据特性。[[Read more...](https://zhuanlan.zhihu.com/p/37562283)]
+
+## Multimodal Representation Learning
+
++ [**IJCAI'15**] Kaixiang Mo, Bo Liu, Lei Xiao, Yong Li, Jie Jiang. [Image Feature Learning for Cold Start Problem in Display Advertising](https://www.ijcai.org/Proceedings/15/Papers/524.pdf), *IJCAI*, 2015. [**Tencent**]
+
+
