@@ -2,6 +2,7 @@
 
 A list of papers on CTR/CVR prediction in online advertising, recommendation, and sponsored search.
 + [Categorical Representation Learning](#Categorical-Representation-Learning)
+   + [2019](#2019) | [2018](#2018) | [2017](#2017) | [2016](#2016) | [2015](#2015) | [2014](#2014) | [2013](#2013) | [2010](#2010) | [2007](#2007) | 
 + [User Behavior Modeling](#User-Behavior-Modeling)
 + [Sponsored Search](#Sponsored-Search)
 + [Sequential Recommendation](#Sequential-Recommendation)
