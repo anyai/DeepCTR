@@ -9,7 +9,7 @@ A review and evaluation of CTR prediction models
 | LR | WWW'07 |[Predicting Clicks: Estimating the Click-Through Rate for New Ads](https://dl.acm.org/citation.cfm?id=1242643) [**Microsoft**]| :heavy_check_mark: |
 | FM |ICDM'10 | [Factorization Machines](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf)| :heavy_check_mark: |
 | FTRL | KDD'13| [Ad Click Prediction: a View from the Trenches](https://www.researchgate.net/publication/262412214_Ad_click_prediction_a_view_from_the_trenches) [**Google**]||
-| GBDT |ADKDD'14| [Practical Lessons from Predicting Clicks on Ads at Facebook](https://dl.acm.org/citation.cfm?id=2648589) [**Facebook**] ||
+| GBDT+LR |ADKDD'14| [Practical Lessons from Predicting Clicks on Ads at Facebook](https://dl.acm.org/citation.cfm?id=2648589) [**Facebook**] ||
 | CCPM |CIKM'15| [A Convolutional Click Prediction Model](http://www.escience.cn/system/download/73676) | :heavy_multiplication_x: |
 | FFM | RecSys'16 | [Field-aware Factorization Machines for CTR Prediction](https://dl.acm.org/citation.cfm?id=2959134) [**Criteo**] |:heavy_check_mark: |
 | DNN | RecSys'16 | [Deep Neural Networks for YouTube Recommendations](http://art.yale.edu/file_columns/0001/1132/covington.pdf) [**Google**] |:heavy_check_mark: |
