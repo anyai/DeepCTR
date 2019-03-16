@@ -27,8 +27,8 @@ A review and evaluation of CTR prediction models
 ### Datasets
 | Dataset |  #Fields | #Features | #Instances | #Train | #Validation | #Test | Statistical CTR |
 | :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:------:|:------:|
-| [Criteo](https://github.com/anyai/deepCTR/tree/master/data#criteo)  |39 |  |45,840,617 |32,743,297 |6,548,660| 6,042,135 ||
-| [Avazu](https://github.com/anyai/deepCTR/tree/master/data#avazu)  |  23 || 40,428,967 | 36,210,029 | | 4,218,938 | 0.1698 |
+| [Criteo](https://github.com/anyai/deepCTR/tree/master/data#criteo)  | 39 |  | 45,840,617 | 39,798,482 | | 6,042,135 | 25.62% |
+| [Avazu](https://github.com/anyai/deepCTR/tree/master/data#avazu)  |  23 || 40,428,967 | 36,210,029 | | 4,218,938 | 16.98% |
 | [iPinyou](https://github.com/anyai/deepCTR/tree/master/data#ipinyou)  | | | 14,759,750 |10,580,553 | 1,657,567 | 2,521,630 ||
 | [Taobao](https://github.com/anyai/deepCTR/tree/master/data#taobao)   |  | | | ||||
 | [AliCCP](https://github.com/anyai/deepCTR/tree/master/data#aliccp)   |  | | | ||||
