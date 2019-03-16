@@ -1,9 +1,11 @@
 [![Documentation Status](https://readthedocs.org/projects/deepctr/badge/?version=latest)](https://deepctr.readthedocs.io/en/latest/?badge=latest)
 
-# DeepCTR
-A review and evaluation of CTR prediction models
+# OpenCTR
+Click-through rate (CTR) prediction is an important task in many industrial applications such as online advertising, recommender systems, and sponsored search. OpenCTR builds an open-source library for benchmarking existing CTR prediction models.
 
 ### Models
+CTR prediction models currently available:
+
 | Model | Conference | Paper | Available | 
 | :-----: | -------: |:------------|:----------:|
 | LR | WWW'07 |[Predicting Clicks: Estimating the Click-Through Rate for New Ads](https://dl.acm.org/citation.cfm?id=1242643) [**Microsoft**]| :heavy_check_mark: |
@@ -22,7 +24,6 @@ A review and evaluation of CTR prediction models
 | DCN | ADKDD'17 | [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123) [**Google**] | :heavy_check_mark:|
 | xDeepFM |KDD'18| [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf) [**Microsoft**] | :heavy_multiplication_x: |
 | FwFM | WWW'18 | [Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](https://arxiv.org/pdf/1806.03514.pdf) [**Oath, TouchPal, LinkedIn, Ablibaba**] | :heavy_multiplication_x: |
-
 
 ### Datasets
 | Dataset |  #Fields | #Features | #Instances | #Train | #Validation | #Test | Statistical CTR |
