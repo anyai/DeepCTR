@@ -26,13 +26,13 @@ CTR prediction models currently available:
 | FwFM | WWW'18 | [Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](https://arxiv.org/pdf/1806.03514.pdf) [**Oath, TouchPal, LinkedIn, Ablibaba**] | :heavy_multiplication_x: |
 
 ### Datasets
-| Dataset |  #Fields | #Features | #Instances | #Train | #Validation | #Test | Statistical CTR |
+| Dataset |  #Fields | #Features | #Instances | #Train | #Test | Statistical CTR |
 | :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:------:|:------:|
-| [Criteo](https://github.com/anyai/deepCTR/tree/master/data#criteo)  | 39 |  | 45,840,617 | 39,798,482 | | 6,042,135 | 25.62% |
-| [Avazu](https://github.com/anyai/deepCTR/tree/master/data#avazu)  |  23 || 40,428,967 | 36,210,029 | | 4,218,938 | 16.98% |
-| [iPinyou](https://github.com/anyai/deepCTR/tree/master/data#ipinyou)  | | | 14,759,750 |10,580,553 | 1,657,567 | 2,521,630 ||
-| [Taobao](https://github.com/anyai/deepCTR/tree/master/data#taobao)   |  | | | ||||
-| [AliCCP](https://github.com/anyai/deepCTR/tree/master/data#aliccp)   |  | | | ||||
-| [Frappe](https://github.com/anyai/deepCTR/tree/master/data#frappe)  |  | | | ||||
+| [Criteo](./datasets#criteo)  | 39 |  | 45,840,617 | 39,798,482 | 6,042,135 | 25.62% |
+| [Avazu](./datasets#avazu)  |  23 || 40,428,967 | 36,210,029 | 4,218,938 | 16.98% |
+| [iPinyou](./datasets#ipinyou)  | | | 14,758,717 | 12,237,087 | 2,521,630 | 0.0726% |
+| [Taobao](./datasets#taobao)   |  | | | |||
+| [AliCCP](./datasets#aliccp)   |  | | | |||
+| [Frappe](./datasets#frappe)  |  | | | |||
 
 
