@@ -27,10 +27,10 @@ CTR prediction models currently available:
 
 ### Datasets
 | Dataset |  #Fields | #Features | #Instances | #Train | #Test | Statistical CTR |
-| :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:------:|:------:|
-| [Criteo](./datasets#criteo)  | 39 |  | 45,840,617 | 39,798,482 | 6,042,135 | 25.62% |
-| [Avazu](./datasets#avazu)  |  23 || 40,428,967 | 36,210,029 | 4,218,938 | 16.98% |
-| [iPinyou](./datasets#ipinyou)  | | | 14,758,717 | 12,237,087 | 2,521,630 | 0.0726% |
+| :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:------:|
+| [Criteo](./datasets#criteo)  | 39 | | 45,840,617 | 39,798,482 | 6,042,135 | 25.62% |
+| [Avazu](./datasets#avazu)  |  23 | | 40,428,967 | 36,210,029 | 4,218,938 | 16.98% |
+| [iPinyou](./datasets#ipinyou) |  | | 14,758,717 | 12,237,087 | 2,521,630 | 0.0726% |
 | [Taobao](./datasets#taobao)   |  | | | |||
 | [AliCCP](./datasets#aliccp)   |  | | | |||
 | [Frappe](./datasets#frappe)  |  | | | |||
