@@ -22,17 +22,19 @@ CTR prediction models currently available:
 | NFM |SIGIR'17| [Neural Factorization Machines for Sparse Predictive Analytics](https://dl.acm.org/citation.cfm?id=3080777) | :heavy_check_mark: |
 | AFM |IJCAI'17| [Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks](http://www.ijcai.org/proceedings/2017/0435.pdf) |:heavy_check_mark:|
 | DCN | ADKDD'17 | [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123) [**Google**] | :heavy_check_mark:|
-| xDeepFM |KDD'18| [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf) [**Microsoft**] | :heavy_multiplication_x: |
 | FwFM | WWW'18 | [Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](https://arxiv.org/pdf/1806.03514.pdf) [**Oath, TouchPal, LinkedIn, Ablibaba**] | :heavy_multiplication_x: |
+| xDeepFM |KDD'18| [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf) [**Microsoft**] | :heavy_multiplication_x: |
+
 
 ### Datasets
 | Dataset |  #Fields | #Features | #Instances | #Train | #Test | Statistical CTR |
 | :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:------:|
-| [Criteo](./datasets#criteo)  | 39 | | 45,840,617 | 39,798,482 | 6,042,135 | 25.62% |
-| [Avazu](./datasets#avazu)  |  23 | | 40,428,967 | 36,210,029 | 4,218,938 | 16.98% |
-| [iPinyou](./datasets#ipinyou) |  | | 14,758,717 | 12,237,087 | 2,521,630 | 0.0726% |
-| [Taobao](./datasets#taobao)   |  | | | |||
-| [AliCCP](./datasets#aliccp)   |  | | | |||
-| [Frappe](./datasets#frappe)  |  | | | |||
-
+| [Criteo](./data#criteo)  | 39 | | 45,840,617 | 39,798,482 | 6,042,135 | 25.62% |
+| [Avazu](./data#avazu)  |  23 | | 40,428,967 | 36,210,029 | 4,218,938 | 16.98% |
+| [iPinyou](./data#ipinyou) |  | | 14,758,717 | 12,237,087 | 2,521,630 | 0.0726% |
+| [Taobao](./data#taobao)   |  | | | |||
+| [Alimama](./data#alimama)   |  | | | |||
+| [Tencent](./data#tencent)  |  | | | |||
+| [TAAC](./data#taac)  |  | | | |||
+| [TikTok](./data#TikTok)  |  | | | |||
 
