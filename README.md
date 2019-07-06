@@ -27,14 +27,13 @@ CTR prediction models currently available:
 
 
 ### Datasets
-| Dataset |  #Fields | #Features | #Instances | #Train | #Test | Statistical CTR |
-| :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:------:|
-| [Criteo](./data#criteo)  | 39 | | 45,840,617 | 39,798,482 | 6,042,135 | 25.62% |
-| [Avazu](./data#avazu)  |  23 | | 40,428,967 | 36,210,029 | 4,218,938 | 16.98% |
-| [iPinyou](./data#ipinyou) |  | | 14,758,717 | 12,237,087 | 2,521,630 | 0.0726% |
-| [Taobao](./data#taobao)   |  | | | |||
-| [Alimama](./data#alimama)   |  | | | |||
-| [Tencent](./data#tencent)  |  | | | |||
-| [TAAC](./data#taac)  |  | | | |||
-| [TikTok](./data#TikTok)  |  | | | |||
+| Dataset |  #Fields | #Features | #Instances | #Train | #Validation | #Test | Positive Ratio |
+| :-----: |:-----------:|:-----------:| :-------:|:-------:|:----------:|:----------:|:------:|
+| [Criteo](./data#criteo)  | 39 | | 45,840,617 | 39,798,482 | | 6,042,135 | 25.62% |
+| [Avazu](./data#avazu)  |  23 | | 40,428,967 | 36,210,029 | |4,218,938 | 16.98% |
+| [iPinyou](./data#ipinyou) |  | | 14,758,717 | 12,237,087 | | 2,521,630 | 0.0726% |
+| [Taobao](./data#taobao)   |  | | | ||||
+| [Alimama](./data#alimama)   |  | | | ||||
+| [Tencent](./data#tencent)  |  | | | ||||
+| [Bytedance](./data#bytedance)  |  | | | ||||
 
