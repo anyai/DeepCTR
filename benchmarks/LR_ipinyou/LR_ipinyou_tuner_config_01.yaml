@@ -1,0 +1,75 @@
+base_config: ../config/
+base_setting: LR_ipinyou_01
+
+tuner_space:
+    model_dir: './LR_ipinyou/'
+    min_categr_count: [10, 20]
+    regularizer: [1.e-9, 1.e-8, 1.e-7]
+    batch_size: [10000, 20000]
+    seed: [2019, 9102]
+    feature_cols:
+        - - {"name": "Timestamp", "active": False, "dtype": str, "type": "categorical"}
+          - {'name': 'UserAgent', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_user_agent'}
+          - {'name': 'AdSlotFloorPrice', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'bucketize_slot_price'}
+          - {"name": "AdSlotWidth", "active": True, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight", "active": True, "dtype": str, "type": "categorical"}
+          - {'name': ["iPinYouId","IP","RegionID","CityID","AdExchange","Domain","URL","AdSlotID","AdSlotVisibility","AdSlotFormat","CreativeID","AdvertiserId"],
+             'active': True, 'dtype': 'str', 'type': 'categorical'}
+          - {'name': 'weekday', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_weekday'}
+          - {'name': 'hour', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_hour'}
+          - {'name': 'weekend', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_weekend'}
+
+        - - {"name": "Timestamp", "active": False, "dtype": str, "type": "categorical"}
+          - {'name': 'UserAgent', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_user_agent'}
+          - {'name': 'AdSlotFloorPrice', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'bucketize_slot_price'}
+          - {"name": "AdSlotWidth", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight_Width", "active": True, "dtype": str, "type": "categorical", 'preprocess': 'combine_height_width'}
+          - {'name': ["iPinYouId","RegionID","CityID","AdExchange","Domain","AdSlotID","AdSlotVisibility","AdSlotFormat","CreativeID"],
+             'active': True, 'dtype': 'str', 'type': 'categorical'}
+          - {'name': 'hour', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_hour'}
+
+        - - {"name": "Timestamp", "active": False, "dtype": str, "type": "categorical"}
+          - {'name': 'UserAgent', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_user_agent'}
+          - {"name": "AdSlotWidth", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight_Width", "active": True, "dtype": str, "type": "categorical", 'preprocess': 'combine_height_width'}
+          - {"name": "IP", "active": True, "dtype": str, "type": "categorical"}
+          - {"name": "IP_Prefix", "active": True, "dtype": str, "type": "categorical", 'preprocess': 'convert_IP_prefix'}
+          - {'name': ["RegionID","CityID","AdExchange","Domain","AdSlotID","AdSlotVisibility","AdSlotFormat","CreativeID"],
+             'active': True, 'dtype': 'str', 'type': 'categorical'}
+          - {'name': 'hour', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_hour'}
+
+        - - {"name": "Timestamp", "active": False, "dtype": str, "type": "categorical"}
+          - {'name': 'UserAgent', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_user_agent'}
+          - {"name": "AdSlotWidth", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight_Width", "active": True, "dtype": str, "type": "categorical", 'preprocess': 'combine_height_width'}
+          - {'name': ["RegionID","CityID","AdExchange","Domain","AdSlotID","AdSlotVisibility","AdSlotFormat","CreativeID","AdvertiserId"],
+             'active': True, 'dtype': 'str', 'type': 'categorical'}
+          - {'name': 'hour', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_hour'}
+
+        - - {"name": "Timestamp", "active": False, "dtype": str, "type": "categorical"}
+          - {'name': 'UserAgent', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_user_agent'}
+          - {"name": "AdSlotWidth", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight_Width", "active": True, "dtype": str, "type": "categorical", 'preprocess': 'combine_height_width'}
+          - {'name': ["RegionID","CityID","AdExchange","Domain","AdSlotID","AdSlotVisibility","AdSlotFormat","CreativeID"],
+             'active': True, 'dtype': 'str', 'type': 'categorical'}
+          - {'name': 'hour', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_hour'}
+
+        - - {"name": "Timestamp", "active": False, "dtype": str, "type": "categorical"}
+          - {'name': 'UserAgent', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_user_agent'}
+          - {'name': ["RegionID","CityID","AdExchange","Domain","AdSlotID","AdSlotVisibility","AdSlotFormat","CreativeID"],
+             'active': True, 'dtype': 'str', 'type': 'categorical'}
+          - {'name': 'hour', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_hour'}
+
+        - - {"name": "Timestamp", "active": False, "dtype": str, "type": "categorical"}
+          - {'name': 'UserAgent', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_user_agent'}
+          - {'name': 'AdSlotFloorPrice', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'bucketize_slot_price'}
+          - {"name": "AdSlotWidth", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight", "active": False, "dtype": str, "type": "categorical"}
+          - {"name": "AdSlotHeight_Width", "active": True, "dtype": str, "type": "categorical", 'preprocess': 'combine_height_width'}
+          - {'name': ["RegionID","CityID","AdExchange","Domain","AdSlotID","AdSlotVisibility","AdSlotFormat","CreativeID"],
+             'active': True, 'dtype': 'str', 'type': 'categorical'}
+          - {'name': 'hour', 'active': True, 'dtype': str, 'type': 'categorical', 'preprocess': 'convert_hour'}
